@@ -13,6 +13,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.send('Bienveido a la api para Alexa')
 });
+app.use('/api/users',require('./routes/users'));
 
 
 

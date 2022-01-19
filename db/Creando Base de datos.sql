@@ -1,0 +1,14 @@
+CREATE DATABASE apiEsp32Alexa;
+
+USE apiEsp32Alexa;
+
+CREATE TABLE users(
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(45) DEFAULT NULL,
+    last_name VARCHAR(45) DEFAULT NULL,
+    email VARCHAR(45) DEFAULT NULL,
+    phone_number VARCHAR(45) DEFAULT NULL,
+    gender VARCHAR(45) DEFAULT NULL,
+    ip_address VARCHAR(45) DEFAULT NULL,
+    PRIMARY KEY(id)
+);
