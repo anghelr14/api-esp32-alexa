@@ -1,0 +1,26 @@
+{
+  "name": "api-esp32-alexa",
+  "version": "1.0.0",
+  "description": "Api para consumo de amazon alexa skill",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anghelr14/api-esp32-alexa.git"
+  },
+  "author": "Anghel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anghelr14/api-esp32-alexa/issues"
+  },
+  "homepage": "https://github.com/anghelr14/api-esp32-alexa#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
